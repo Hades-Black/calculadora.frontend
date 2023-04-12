@@ -1,0 +1,29 @@
+
+
+/* celular */
+
+@media screen and (max-width: 767px) {
+
+    .title-main{
+        text-align: center;
+    }
+    .navbar {
+        width: 100%;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    }
+
+    .nav{ 
+        justify-content: center;
+        gap: .2rem
+        
+    }
+    .nav-item  {
+    width: 70%;
+    flex-direction: column;
+    gap: 0.2em;
+        letter-spacing: .3rem;
+    font-size: larger;       }
+    
+}
